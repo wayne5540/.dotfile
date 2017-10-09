@@ -1,0 +1,8 @@
+[alias]
+	co = checkout
+	st = status
+	cm = commit -m
+	rh = reset --hard HEAD
+[user]
+	name = Wayne
+	email = wayne.5540@gmail.com
