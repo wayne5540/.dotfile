@@ -85,10 +85,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias bi="bundle install"
+alias bi="bundle exec install"
 alias rc="rails c"
+alias rs="rails s"
 alias rdm="bundle exec rake db:migrate"
 alias rdtp="bundle exec rake db:test:prepare"
+alias rrg="bundle exec rake routes | grep"
+alias gdp="git checkout develop & git pull"
+alias gpo="git push origin HEAD"
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

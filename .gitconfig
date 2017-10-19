@@ -3,6 +3,7 @@
 	st = status
 	cm = commit -m
 	rh = reset --hard HEAD
+	rs = reset --soft HEAD
 [user]
 	name = Wayne
 	email = wayne.5540@gmail.com
