@@ -94,6 +94,7 @@ alias rrg="bundle exec rake routes | grep"
 alias gdp="git checkout develop & git pull"
 alias gpo="git push origin HEAD"
 alias otc="cd $HOME/projects/otcbtc"
+alias sync_master="git checkout develop && git pull origin develop && git checkout master && git pull origin master"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
